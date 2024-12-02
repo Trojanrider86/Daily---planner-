@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Planner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            text-align: center;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daily Planner</h1>
+        <p class="quote">"The secret of getting ahead is getting started." – Mark Twain</p>
+    </header>
+
+    <section>
+        <h2>Today's Goals</h2>
+        <ol>
+            <li>Complete morning workout</li>
+            <li>Finish the project presentation</li>
+            <li>Plan meals for the week</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Tasks</h2>
+        <ul>
+            <li><strong>Work:</strong> Reply to client emails</li>
+            <li><strong>Personal:</strong> Call a friend</li>
+            <li><strong>Miscellaneous:</strong> Organize desk</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Inspirational Video</h2>
+        <video controls width="100%">
+            <source URL="https://youtube.com/shorts/NNWQnn4bMl0?feature=shared" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section>
+        <h2>Motivational Podcast</h2>
+        <audio controls>
+            <source src="motivation.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Add Your Notes</h2>
+        <form class="form-container" action="#" method="post">
+            <label for="note">Your Note:</label><br>
+            <input type="text" id="note" name="note" placeholder="Write your note here" required>
+            <br><br>
+            <input type="submit" value="Save Note">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Daily Planner</p>
+        <p>
+            <a href="https://example.com" target="_blank">Learn more</a>
+        </p>
+    </footer>
+</body>
+</html>
